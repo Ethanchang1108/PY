@@ -1,0 +1,10 @@
+input_list = input("字串：").split()
+
+a1, a2, a3 = [(x) for x in input_list]
+ans=""
+for i in [0, 1, 2, 3]:
+    if a1[i] == a2[i] == a3[i]: 
+        ans += a1[i]
+    else:
+        break
+print(ans)

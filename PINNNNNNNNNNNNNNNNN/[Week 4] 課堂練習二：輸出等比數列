@@ -1,0 +1,4 @@
+input_list = input("請輸入數列首相a1, 公比r, 項數n: ").split()
+a1, r, n = [int(x) for x in input_list]
+list1 = [ a1*r**i for i in range(0, n) ]
+print(list1)
